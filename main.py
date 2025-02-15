@@ -10,7 +10,7 @@ dp = Dispatcher()
 async def start_handler(message: types.Message):
     keyboard = types.ReplyKeyboardMarkup(
         keyboard=[
-            [types.KeyboardButton(text="Открыть Web App", web_app=WebAppInfo(url='https://твоя-ссылка-на-сайт'))]
+            [types.KeyboardButton(text="Открыть Web App", web_app=WebAppInfo(url='https://github.com/IvanCeo/Folder'))]
         ],
         resize_keyboard=True
     )
